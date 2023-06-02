@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 15vh;
+    /* 10% da altura do dispositivo */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    padding: 10px;
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    height: 10vh;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+main h1{
+    padding: 10px ;
+}
